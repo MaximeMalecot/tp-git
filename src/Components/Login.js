@@ -22,7 +22,7 @@ export default function Login(){
                 <label>Username</label>
                 <input onChange={(e)=> setLogin(e.target.value)}/>
                 <label>Password</label>
-                <input onChange={(e) => setPswd(e.target.value)}/>
+                <input type="password"onChange={(e) => setPswd(e.target.value)}/>
                 <button onClick={() => connect()}>Se connecter</button>
             </div>
             }
